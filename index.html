@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="dflex col-gap">
+            <div class="dflex f-d-colmn">
+                <label for="area">Plain Text / Encrypt Text</label>
+                <input type="text" id="area" class="area">
+            </div>
+            <div class="dflex f-d-colmn">
+                <label for="number">Security Key</label>
+                <input type="number" name="number" id="number" class="area" value="3" placeholder="Security Key">
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button class="encrypt">Encrypt</button>
+            <button class="decrypt">Decrypt</button>
+        </div>
+        <h3 class="result"></h3>
+    </div>
+    <footer>
+        &copy; 2022 Robera Insarmu | Jimma University.
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

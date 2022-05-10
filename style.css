@@ -1,0 +1,89 @@
+            *,
+            *::after,
+            *::before {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            
+            html,
+            body {
+                overflow: hidden;
+            }
+            
+            body {
+                background-color: rgba(250, 250, 250, 0.09);
+                width: 100%;
+                height: 100vh;
+                overflow: hidden;
+            }
+            
+            .dflex {
+                display: flex;
+            }
+            
+            .f-d-colmn {
+                flex-direction: column;
+            }
+            
+            .col-gap {
+                column-gap: 1em;
+            }
+            
+            .container {
+                display: flex;
+                margin: auto;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                height: 100%;
+                width: 100%;
+                row-gap: 1em;
+            }
+            
+            label {
+                margin-bottom: 3px;
+            }
+            
+            .area {
+                border: 2px solid #10182f;
+                padding: 10px 20px;
+                text-align: center;
+                vertical-align: center;
+                line-height: 1.5;
+            }
+            
+            #number {
+                /* width: 20px; */
+            }
+            
+            button {
+                text-align: center;
+                border-radius: 10px;
+                /* height: 100%; */
+                /* width: ; */
+                height: 40px;
+                width: 100px;
+                vertical-align: centre;
+                padding: 8px 10px;
+                text-align: center;
+                border: none;
+                transition: 0.3s;
+                color: #fff;
+                background-color: #10182f;
+                margin-right: 1em;
+                cursor: pointer;
+            }
+            
+            .alert {
+                display: flex;
+                flex-direction: column;
+                align-self: center;
+                justify-content: center;
+                font-size: 18px;
+                padding: 10px;
+                background-color: #e4380de0;
+                width: fit-content;
+                text-align: center;
+                color: #e0e4f0;
+            }
